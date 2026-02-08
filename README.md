@@ -90,7 +90,7 @@ pip install -r requirements.txt
 python create_database_mysql.py
 
 # 5. Запустить API
-python app_mysql.py
+python app.py
 
 # 6. Установить зависимости Node.js (в новом окне)
 cd map
@@ -100,7 +100,7 @@ npm install
 npm run dev
 ```
 
-Откройте http://localhost:5173
+Адрес по умолчанию: http://localhost:5173
 
 **Управление в Docker:**
 ```bash
@@ -119,8 +119,8 @@ docker-compose restart
 1. **Клонируйте репозиторий**
 
 ```bash
-git clone <repository-url>
-cd <project-folder>
+git clone https://github.com/anessa6/spb_sport_map
+cd spb_sport_map
 ```
 
 2. **Настройка базы данных**
