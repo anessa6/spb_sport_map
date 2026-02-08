@@ -111,11 +111,6 @@ docker-compose down
 docker-compose restart
 ```
 
-**Если порт 3306 занят:**
-Измените порт в `docker-compose.yml` на `"3307:3306"` и в `.env` укажите `DB_PORT=3307`
-
----
-
 ### Установка без Docker
 
 1. **Клонируйте репозиторий**
@@ -144,8 +139,6 @@ pip install -r requirements.txt
 ```bash
 python create_database_mysql.py
 ```
-
-Подробная инструкция по миграции на MySQL: [MIGRATION_MYSQL.md](MIGRATION_MYSQL.md)
 
 5. **Установка зависимостей Node.js**
 ```bash
